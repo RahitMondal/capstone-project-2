@@ -4,7 +4,7 @@ const SubItem = ({ subItem, onClickHandler, buttonLabel }) => {
   return (
     <div id="sub-items-container">
       <div className="left">
-        <p>{subItem.name}</p>
+        <p style={{ fontWeight: "bold" }}>{subItem.name}</p>
         <br />
         &#8377; {subItem.price}
         <br />

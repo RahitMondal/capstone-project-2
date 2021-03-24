@@ -9,10 +9,16 @@ const Cart = ({ cartItems, removeFromCart, emptyCart }) => {
     head = null,
     showPlaceOrderButton = false;
 
-  if (cartItems === null) content = "Couldn't fetch data! :(";
-  else if (cartItems.length === 0) content = "There is no item in the cart! :(";
+  if (cartItems === null)
+    content = <div className="msg-box">Couldn't fetch data! :(</div>;
+  else if (cartItems.length === 0)
+    content = <div className="msg-box">There is no item in the cart! :(</div>;
   else {
-    head = <div style={{ textAlign: "center" }}>You Have Ordered:</div>;
+    head = (
+      <div className="cart-header" style={{ textAlign: "center" }}>
+        You Have Ordered:
+      </div>
+    );
     content = cartItems.map((subItem) => {
       return (
         <SubItem

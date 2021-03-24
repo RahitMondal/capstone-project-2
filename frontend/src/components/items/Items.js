@@ -26,8 +26,9 @@ const Items = () => {
   };
 
   let content;
-  if (isLoading) content = "Loading...";
-  else if (items === null) content = "Couldn't fetch data! :(";
+  if (isLoading) content = <div className="msg-box">Loading...</div>;
+  else if (items === null)
+    content = <div className="msg-box">Couldn't fetch data! :(</div>;
   else
     content = items.map((item) => {
       return <Item key={item.name} name={item.name} image={item.image} />;

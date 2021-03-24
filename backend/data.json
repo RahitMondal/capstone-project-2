@@ -40,19 +40,19 @@
                             "name": "Veg Burger",
                             "image": "https://res.cloudinary.com/dafoggnio/image/upload/v1615989542/veg_burger_haqiqd.jpg",
                             "price": "400",
-                            "description": "Spicy Paneer, Onion, Tomato, Mozerella Cheese"
+                            "description": "A veggie burger is a burger patty that does not contain meat. These burgers may be made from ingredients like beans, especially soybeans and tofu, nuts, grains, seeds or fungi such as mushrooms or mycoprotein."
                         },
                         {
                             "name": "Cheese Burger",
                             "image": "https://res.cloudinary.com/dafoggnio/image/upload/v1615989442/cheese_burger_xyg15e.jpg",
                             "price": "520",
-                            "description": "Spicy Paneer, Onion, Tomato, Mozerella Cheese"
+                            "description": "A cheeseburger is a hamburger topped with cheese. Traditionally, the slice of cheese is placed on top of the meat patty."
                         },
                         {
                             "name": "Hamburger",
                             "image": "https://res.cloudinary.com/dafoggnio/image/upload/v1615989505/ham_burger_f8x2i5.jpg",
                             "price": "600",
-                            "description": "Spicy Paneer, Onion, Tomato, Mozerella Cheese"
+                            "description": "A sandwich consisting of one or more cooked patties of ground meat, placed inside a sliced bread roll or bun. "
                         }
                     ]
                 }

@@ -5,6 +5,12 @@
 }
 
 .place-order {
+  margin-top: 2rem;
   color: #fff;
   width: 8rem;
+}
+
+.cart-header {
+  font-size: 1.5rem;
+  padding: 1rem;
 }

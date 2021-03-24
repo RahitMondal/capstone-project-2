@@ -30,12 +30,19 @@ const SubItems = ({ addToCart }) => {
 
   let content,
     head = null;
-  if (isLoading) content = "Loading...";
+  if (isLoading) content = <div className="msg-box">Loading...</div>;
   else if (subItemsData === undefined)
-    content = "There is no item such as " + endPoint + "! :(";
-  else if (subItemsData === null) content = "Couldn't fetch data! :(";
+    content = (
+      <div className="msg-box">There is no item such as {endPoint}! :(</div>
+    );
+  else if (subItemsData === null)
+    content = <div className="msg-box">Couldn't fetch data! :(</div>;
   else {
-    head = <div style={{ textAlign: "center" }}>{subItemsData.name}</div>;
+    head = (
+      <div className="sub-items-header" style={{ textAlign: "center" }}>
+        {subItemsData.name}
+      </div>
+    );
     const subItems = subItemsData.subItems;
     content = subItems.map((subItem) => {
       return (

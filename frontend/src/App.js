@@ -78,7 +78,9 @@ function App() {
 
   return (
     <div className="App">
-      {status || (
+      {status ? (
+        <div className="msg-box">{status}</div>
+      ) : (
         <Router>
           <Header cartCount={cartCount} />
           <Switch>
