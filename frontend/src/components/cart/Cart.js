@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "./Cart.css";
 
 import SubItem from "../shared/subItem/SubItem";
@@ -29,9 +31,11 @@ const Cart = ({ cartItems, removeFromCart, emptyCart }) => {
       {head}
       {content}
       {showPlaceOrderButton && (
-        <button className="place-order" onClick={emptyCart}>
-          Place Order
-        </button>
+        <Link to="/">
+          <button className="place-order" onClick={emptyCart}>
+            Place Order
+          </button>
+        </Link>
       )}
     </div>
   );
