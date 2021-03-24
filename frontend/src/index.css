@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 1rem;
+}
+button {
+  background-color: #b00;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+}
+button:hover {
+  cursor: pointer;
+}

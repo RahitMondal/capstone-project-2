@@ -1,0 +1,62 @@
+{
+    "results":[
+        {
+            "name": "Pizza",
+            "image": "https://res.cloudinary.com/dafoggnio/image/upload/v1615990102/pizza_tqg5qw.jpg",
+            "subItemsData": [
+                {
+                    "name": "Tasty Pizzas",
+                    "subItems": [
+                        {
+                            "name": "Sicilian Pizza",
+                            "image": "https://res.cloudinary.com/dafoggnio/image/upload/v1615989750/scilian_pizza_bkuqqv.jpg",
+                            "price": "700",
+                            "description": "A thick base pizza with fresh tomato sauce, mushrooms, garlic, pickled onions"
+                        },
+                        {
+                            "name": "Greek Pizza",
+                            "image": "https://res.cloudinary.com/dafoggnio/image/upload/v1615989614/greek_pizza_dfu9wq.jpg",
+                            "price": "550",
+                            "description": "Spicy tomato sauce with Italian herbs, mushrooms, onion, cottage cheese, coriander and mozzarella"
+                        },
+                        {
+                            "name": "Chicago Pizza",
+                            "image": "https://res.cloudinary.com/dafoggnio/image/upload/v1615989638/chicago_pizza_swbovh.jpg",
+                            "price": "580",
+                            "description": "Dressed with oil, the origanum and garlic cloves"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Burger",
+            "image": "https://res.cloudinary.com/dafoggnio/image/upload/v1615990112/burger_m9jgdp.jpg",
+            "subItemsData": [
+                {
+                    "name": "Crispy Burgers",
+                    "subItems": [
+                        {
+                            "name": "Veg Burger",
+                            "image": "https://res.cloudinary.com/dafoggnio/image/upload/v1615989542/veg_burger_haqiqd.jpg",
+                            "price": "400",
+                            "description": "Spicy Paneer, Onion, Tomato, Mozerella Cheese"
+                        },
+                        {
+                            "name": "Cheese Burger",
+                            "image": "https://res.cloudinary.com/dafoggnio/image/upload/v1615989442/cheese_burger_xyg15e.jpg",
+                            "price": "520",
+                            "description": "Spicy Paneer, Onion, Tomato, Mozerella Cheese"
+                        },
+                        {
+                            "name": "Hamburger",
+                            "image": "https://res.cloudinary.com/dafoggnio/image/upload/v1615989505/ham_burger_f8x2i5.jpg",
+                            "price": "600",
+                            "description": "Spicy Paneer, Onion, Tomato, Mozerella Cheese"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}   
